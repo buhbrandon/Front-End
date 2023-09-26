@@ -5,6 +5,11 @@
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <title>Learning Materialize</title>
+        <style>
+            .box {
+                height: 200px;
+            }
+        </style>
     </head>
     <body>
         <div class="container">
@@ -17,54 +22,58 @@
 
         <!-- Colors -->
         <div class="container">
-            <h5>Be yourself, everyone else is already taken</h5>
-            <h5>
+            <h5 class="light-blue darken-4">Be yourself, everyone else is already taken</h5>
+            <h5 class="orange">
                 We are all in the gutter, but some of us are looking at the
                 stars
             </h5>
-            <h5>
+            <h5 class="purple darken-3 white-text">
                 To live is the rarest thing in the world. Most people exist,
                 that is all
             </h5>
-            <h5>Experience is simply the name we give our mistakes</h5>
-            <h5>Always forgive your enemies - nothing annoys them so much</h5>
+            <h5 class="teal darken-2 yellow-text text-lighten-3">Experience is simply the name we give our mistakes</h5>
+            <h5 class="brown darken-3 yellow-text text-lighten-4">Always forgive your enemies - nothing annoys them so much</h5>
         </div>
 
         <!-- Alignment -->
         <div class="container">
-            <h5>Center alignment</h5>
-            <h5>Left alignment</h5>
-            <h5>Right alignment</h5>
+            <h5 class="center-align">Center alignment</h5>
+            <h5 class="left-align">Left alignment</h5>
+            <h5 class="right-align">Right alignment</h5>
         </div>
 
         <!-- Create your own styles -->
-        <div class="container">
+        <div class="container grey lighten-2 box valign-wrapper">
             <h5>Vertical alignment</h5>
         </div>
 
         <div class="container">
             <h4>Buttons</h4>
-            <a href="#">Normal button</a>
-            <a href="#">Small button</a>
-            <a href="#">Large button</a>
-            <a href="#">Indigo button</a>
-            <a href="#">Disabled button</a>
+            <a href="#" class="btn waves-effect waves-light">Normal button</a>
+            <a href="#" class="btn-small">Small button</a>
+            <a href="#" class="btn-large">Large button</a>
+            <a href="#" class="btn indigo">Indigo button</a>
+            <a href="#" class="btn disabled">Disabled button</a>
 
             <h4>Floating button</h4>
-            <a href="#"></a>
+            <a href="#" class="btn-floating"></a>
 
             <h4>Other elements</h4>
             <div>I am a div tag</div>
         </div>
         <div class="container">
             <h4>Icons</h4>
-            
+            <i class="material-icons">error</i>
+            <i class="material-icons grey">cloud</i>
+
             <h4>Icons on Buttons</h4>
             <a href="#" class="btn indigo">
                 <span>Send</span>
+                <i class="material-icons right">send</i>
                 
             </a>
             <a href="#" class="btn pink waves-effect waves-light">
+                <i class="material-icons left">email</i>
                 <span>Email</span>
                 
             </a>
