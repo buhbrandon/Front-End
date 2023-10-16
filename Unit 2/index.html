@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="colorDisplay">
+    <h1>Color Picker</h1>
+
+    <input type="color" id="colorInput" />
+    <button id="applyColor">Apply Color</button>
+    <script>
+        const colorInput = document.getElementById("colorInput");
+        const applyColorButton = document.getElementById("applyColor");
+        const colorDisplay = document.getElementById("colorDisplay");
+
+        applyColorButton.addEventListener("click", function func() {
+            const selectedColor = colorInput.value;
+            colorDisplay.style.backgroundColor = selectedColor;
+        });
+    </script>
+</body>
+</html>
