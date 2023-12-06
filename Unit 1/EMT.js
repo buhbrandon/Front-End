@@ -84,5 +84,3 @@ function checkAnswer(selectedOption) {
 }
 
 showSlides(slideNumber);
-showQuestion(currentQuestionIndex);
-// hello there
