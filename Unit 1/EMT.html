@@ -13,12 +13,12 @@
         />
         <link rel="stylesheet" href="styles.css">
         <title>EMT Information</title>
+
     </head>
     <body>
         <header>
             <div class="row valign-wrapper">
-                <ul class="col s12
-                 row center-align">
+                <ul class="col s12 row center-align">
                     <a href="https://en.wikipedia.org/wiki/Emergency_medical_technician" class="offset-s6 col s2">Wikipedia Page</a>
                     <a href="https://www.nremt.org/" class="col s2">NREMT Website</a>
                     <a href="https://info.ontimetransport.com/blog/emt-training-schools-in-new-jersey" class="col s2">NJ Classes</a>
@@ -48,6 +48,27 @@
             <a href="https://www.ems1.com/ambulance-service/articles/national-association-of-state-ems-officials-releases-stats-on-local-agencies-911-calls-LPQTHJrK2oIpxuR1/">EMS Statistics</a>
         </div>
 
+        <div class="slideshow center-align section-2 row">
+            <p>Check out some fun pictures from Brandon's EMT class!</p>
+            <div class="slide">
+                <img src="IMG_5786.JPEG" style="width:50%">
+            </div>
+            <div class="slide" >
+                <img src="IMG_5785.JPEG" style="width:50%">
+            </div>
+            <div class="slide">
+                <img src="IMG_8619.JPG" style="width:50%">
+            </div>
+            <a class="previous" onclick="nextSlide(-1)">&#10094;</a>
+            <a class="next" onclick="nextSlide(1)">&#10095;</a>
+        </div>
+
+        <div class="container section-1">
+            <h4 class="white-text">Test your prior knowledge about EMTs!</h1>
+            <p id="question"></p>
+            <div id="choices" class="row"></div>
+        </div>
+
         <div class="section-3 row center-align">
         <h5 class="white-text">Get in contact for more info!</h3> <br>
             <div class="container section-4">
@@ -74,5 +95,7 @@
                 </form>
             </div>
         </div>
+
+        <script src="EMT.js"></script>
     </body>
 </html>
